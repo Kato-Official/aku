@@ -35,14 +35,35 @@ export default function Home() {
             </div>
             <div className="flex justify-center lg:justify-end">
               <div className="relative w-full max-w-[500px] aspect-video rounded-xl overflow-hidden border shadow-lg">
-                <div className="absolute inset-0 bg-gradient-to-br from-rose-500/20 to-purple-600/20 backdrop-blur-sm">
-                  <img
-                    src="https://joomjoo-1d799.kxcdn.com/aku/hero-img.png"
-                    alt="Aku PropTech AI Platform"
-                    className="absolute inset-0 w-full h-full object-contain p-4"
-                    loading="eager"
-                    fetchPriority="high"
-                  />
+                <div className="absolute inset-0 bg-gradient-to-br from-rose-500/20 to-purple-600/20">
+                  <div className="absolute inset-0 flex items-center justify-center p-4">
+                    <div className="w-full h-full bg-rose-100/90 dark:bg-rose-900/20 rounded-lg p-6 text-left font-mono text-sm overflow-hidden">
+                      <div className="flex gap-1.5 mb-4">
+                        <div className="w-3 h-3 rounded-full bg-red-500"></div>
+                        <div className="w-3 h-3 rounded-full bg-yellow-500"></div>
+                        <div className="w-3 h-3 rounded-full bg-green-500"></div>
+                      </div>
+                      <div className="text-gray-800 dark:text-gray-200 whitespace-pre-wrap">
+                        $ curl -X POST https://api.aku.tools/agents/landlord \
+                        <br />
+                        {"  "}-d {"{"}
+                        <br />
+                        {"    "}"issue": "AC stopped working",
+                        <br />
+                        {"    "}"location": "Unit 402, Marina Heights"
+                        <br />
+                        {"  "}
+                        {"}"}
+                        <br />
+                        <br />
+                        {"> AI Agent:"}
+                        <br />
+                        {"  * Maintenance ticket created."}
+                        <br />
+                        {"  * Technician scheduled for today at 3PM."}
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
