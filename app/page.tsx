@@ -37,7 +37,7 @@ export default function Home() {
               <div className="relative w-full max-w-[500px] aspect-video rounded-xl overflow-hidden border shadow-lg">
                 <div className="absolute inset-0 bg-gradient-to-br from-rose-500/20 to-purple-600/20">
                   <div className="absolute inset-0 flex items-center justify-center p-4">
-                    <div className="w-full h-full bg-rose-100/90 dark:bg-rose-900/20 rounded-lg p-6 text-left font-mono text-sm overflow-hidden">
+                    <div className="w-full h-full bg-transparent rounded-lg p-4 text-left font-mono text-xs sm:text-sm flex flex-col justify-center overflow-visible">
                       <div className="flex gap-1.5 mb-4">
                         <div className="w-3 h-3 rounded-full bg-red-500"></div>
                         <div className="w-3 h-3 rounded-full bg-yellow-500"></div>
