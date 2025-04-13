@@ -40,6 +40,8 @@ export default function Home() {
                     src="https://joomjoo-1d799.kxcdn.com/aku/hero-img.png"
                     alt="Aku PropTech AI Platform"
                     className="absolute inset-0 w-full h-full object-contain p-4"
+                    loading="eager"
+                    fetchPriority="high"
                   />
                 </div>
               </div>
