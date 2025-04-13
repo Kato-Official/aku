@@ -1,0 +1,16 @@
+[
+  {
+    "id": "summarize_listing",
+    "file": "summarize_listing.md",
+    "tags": ["summary", "property", "listing"],
+    "roles": ["agent", "broker"],
+    "description": "Summarizes a property listing into bullet points"
+  },
+  {
+    "id": "negotiate_offer",
+    "file": "negotiate_offer.md",
+    "tags": ["negotiation", "offer", "deal"],
+    "roles": ["broker", "agent"],
+    "description": "Help negotiate a property deal with buyers"
+  }
+]

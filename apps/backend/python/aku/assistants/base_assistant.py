@@ -1,0 +1,1 @@
+# Base assistant interface

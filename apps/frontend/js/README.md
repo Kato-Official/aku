@@ -1,0 +1,1 @@
+# JavaScript support coming soon

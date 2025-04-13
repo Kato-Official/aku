@@ -1,0 +1,4 @@
+[tool.poetry]
+name = "aku"
+version = "0.1.0"
+description = "Modular AI toolkit for PropTech"
