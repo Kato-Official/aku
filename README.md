@@ -19,25 +19,22 @@
 
 ```
 aku/
-├── python/
-│   └── aku/
-│       ├── agents/           # Fully autonomous multi-step agents
-│       ├── assistants/       # Lightweight LLM helpers per role
-│       ├── tools/            # AI tools: PDF parsers, scrapers, converters
-│       ├── prompts/          # Prompt registry, tagging, search
-│       ├── rag/              # RAG pipelines: chunking, vectorstore, retrievers
-│       ├── use_cases/        # End-to-end workflows (e.g. close a deal)
-│       ├── context/          # Reusable structured domain knowledge
-│       ├── models/           # LLM loaders, wrappers (OpenAI, etc.)
-│       ├── templates/        # FastAPI, Streamlit, Node starters
-│       ├── safety/           # Guardrails to prevent Chatastrophic™ actions
-├── prompts/
-│   ├── prompts/              # Actual prompt files
-│   ├── registry.json         # Metadata: tags, roles, descriptions
-│   └── categories/           # 📚 Markdown breakdown of all prompt types
-├── js/                       # JS/TS version in progress
-├── scripts/                  # Dev & run scripts
-├── tests/                    # Tests for all components
+├── apps/
+│   ├── frontend/                # Next.js frontend (Vercel-deployed)
+│   └── backend/
+│       └── python/              # Python backend
+│           ├── aku/            # Main backend modules: agents, tools, etc.
+│           ├── scripts/        # Scripts for automation/dev
+│           ├── tests/          # Unit and integration tests
+│           └── pyproject.toml  # Poetry setup
+├── packages/
+│   └── prompts/
+│       ├── prompts/            # Prompt templates
+│       └── registry.json       # Prompt metadata
+├── docs/
+│   └── roadmap.md              # Development roadmap & persona plans
+├── README.md
+└── .gitignore
 ```
 
 ---
